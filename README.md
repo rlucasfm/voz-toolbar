@@ -1,9 +1,5 @@
-## Plataforma de relatório
-# Envio de SMS e E-mail
+## Toolbar
+# Caixa de Ferramentas
 
-
-# Obs...
-Colocar no index.php (entrypoint do sistema):
-
-// Timezone localization
-date_default_timezone_set('America/Fortaleza');
+Ferramentas de uso geral para os DEVs da Voz Cobrança.
+Tools de manutenção, teste e benchmarking
