@@ -1,0 +1,290 @@
+ERROR - 2021-03-04 09:24:34 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(152): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(36): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 09:24:34 --> Incorrect DATETIME value: ''
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(152): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(36): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-04 09:26:09 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(37): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 09:26:09 --> Undefined variable: response
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:27:00 --> Array to string conversion
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-04 09:27:27 --> Array to string conversion
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-04 11:32:54 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(37): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 11:32:54 --> Undefined variable: response
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-04 11:38:07 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(37): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 11:38:07 --> Undefined variable: response
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-04 14:31:40 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(37): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 14:31:40 --> Undefined variable: response
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 42, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarDatas()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-04 17:18:05 --> mysqli_sql_exception: Incorrect DATETIME value: '' in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(60): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:18:05 --> Incorrect DATETIME value: ''
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(60): App\Models\SmsModel->buscarDatas('', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:46:55 --> Class 'App\Controllers\DateTime' not found
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-03-04 17:47:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-05'' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, '2021-03-05')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:47:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-05'' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, '2021-03-05')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-04 17:48:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:48:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-04 17:49:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:49:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-04 17:52:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-04 17:52:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` < IS NULL' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(153): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(63): App\Models\SmsModel->buscarDatas(NULL, NULL)
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->downloadSheet()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,206 @@
+CRITICAL - 2021-03-10 08:33:16 --> Array to string conversion
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Program File...', 35, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 08:42:38 --> Undefined variable: recebida
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 39, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 08:43:17 --> Cannot use object of type stdClass as array
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(27): App\Models\Eventos->verificarEvento(Array, 5)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 08:43:36 --> Undefined property: stdClass::$count
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 39, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 08:44:40 --> Trying to get property 'COUNT' of non-object
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 39, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 15:47:30 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 15:59:32 --> Invalid argument supplied for foreach()
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Program File...', 60, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 16:23:54 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 16:23:56 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 16:24:11 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 16:26:13 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 16:27:43 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-10 16:30:09 --> Undefined index: codes
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Program File...', 67, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-10 16:39:34 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(245): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->last()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(14): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:40:54 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(245): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->last()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(14): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:41:01 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(245): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->last()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(14): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:06 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(245): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->last()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:24 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(245): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->last()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:35 --> ibase_fetch_object(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 317, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(317): ibase_fetch_object(Resource id #177)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->first()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:41 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT * FROM E...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(209): CodeIgniter\FirebirdModel->queryFetch('SELECT * FROM E...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->findAll()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:47 --> ibase_fetch_object(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 317, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(317): ibase_fetch_object(Resource id #177)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->first()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:43:55 --> ibase_query(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT * FROM E...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(209): CodeIgniter\FirebirdModel->queryFetch('SELECT * FROM E...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->findAll()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:44:25 --> ibase_query(): conversion error from string &quot;00000049000001942021031010352613e41ee9aaf9ff6a505c6a0f72c09e6e1&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 306, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(306): ibase_query('SELECT FIRST 1 ...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(192): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->find('000000490000019...')
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:45:10 --> ibase_fetch_object(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 317, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(317): ibase_fetch_object(Resource id #177)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->first()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 16:46:03 --> ibase_fetch_object(): arithmetic exception, numeric overflow, or string truncation string right truncation 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #177)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 1 ...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(36): CodeIgniter\FirebirdModel->first()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(15): App\Models\Eventos->verificarID('000000490000019...', 9023)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-10 17:07:27 --> Undefined variable: evtResp
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 117, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

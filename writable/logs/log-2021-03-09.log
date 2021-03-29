@@ -1,0 +1,63 @@
+CRITICAL - 2021-03-09 17:33:20 --> Too few arguments to function App\Models\SmsModel::buscarDatas(), 2 passed in C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php on line 14 and exactly 3 expected
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(14): App\Models\SmsModel->buscarDatas('2021-03-01', '2021-03-01')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-09 17:36:50 --> syntax error, unexpected ';'
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Program File...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-09 17:40:05 --> ibase_query(): Dynamic SQL Error SQL error code = -104 Token unknown - line 1, column 65 WHERE 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 289, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(289): ibase_query('SELECT FIRST 10...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 10...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(12): CodeIgniter\FirebirdModel->first(10)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(25): App\Models\Eventos->respondentes(Array)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-09 17:40:38 --> ibase_query(): Dynamic SQL Error SQL error code = -206 Column unknown CLIENTEID At line 1, column 3440 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 289, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(289): ibase_query('SELECT FIRST 10...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(227): CodeIgniter\FirebirdModel->queryFetch('SELECT FIRST 10...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(12): CodeIgniter\FirebirdModel->first(10)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(25): App\Models\Eventos->respondentes(Array)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-09 17:42:52 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:43:48 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:44:18 --> Declaration of CodeIgniter\FirebirdModel::save($arr_val) must be compatible with CodeIgniter\BaseModel::save($data): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:44:29 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:46:19 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:46:55 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:47:55 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-09 17:48:11 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,92 @@
+CRITICAL - 2021-03-06 10:41:21 --> Undefined variable: db_file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Database\Firebird.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 11, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Database\Firebird->connect()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-06 11:33:46 --> Class 'App\Models\Model' not found
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Program File...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(11): spl_autoload_call('App\\Models\\Usua...')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-06 11:33:59 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:35:32 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:45:16 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:45:17 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:45:22 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:53:41 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:53:54 --> Undefined variable: primaryKey
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 22, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-06 11:54:11 --> ibase_query(): supplied resource is not a valid Firebird/InterBase link resource
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 24, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(24): ibase_query('SELECT * FROM u...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Usuarios.php(11): CodeIgniter\FirebirdModel->find(1)
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Home.php(12): App\Models\Usuarios->achar(1)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

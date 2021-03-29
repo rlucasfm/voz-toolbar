@@ -1,0 +1,38 @@
+CRITICAL - 2021-03-16 16:07:19 --> Undefined index: diasate
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Program File...', 80, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:01:07 --> Undefined index: diaAte
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Program File...', 214, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:01:48 --> Undefined variable: diasAte
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 222, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:04:27 --> Undefined variable: ids
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 254, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-16 17:56:07 --> syntax error, unexpected '}'
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Program File...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Even...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Even...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(202): spl_autoload_call('App\\Models\\Even...')
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2021-03-03 09:15:20 --> Undefined variable: titulo
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Views\relatorios.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 7, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\View\View.php(220): include('C:\\Program File...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Common.php(1217): CodeIgniter\View\View->render('relatorios', Array, true)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(16): view('relatorios', Array)
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->index()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,65 @@
+CRITICAL - 2021-03-24 12:41:23 --> Undefined property: stdClass::$cod_credor
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 51, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Home->exportarRepasses('24.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 12:41:42 --> Undefined property: stdClass::$desc_empresa
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 52, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Home->exportarRepasses('24.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 12:42:43 --> Undefined property: stdClass::$FORMA_PAGTO
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 71, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Home->exportarRepasses('24.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 13:12:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Program Files\Ampps\richard-apps\toolbox\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Repasses')
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Repasses')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 13:12:58 --> Call to undefined method App\Controllers\Repasses::repasses_entre()
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(16): App\Controllers\Repasses->exportarRepasses('24.03.2021')
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 13:29:05 --> Class 'App\Controllers\PhpOffice\PhpSpreadsheet\Style\Border' not found
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(16): App\Controllers\Repasses->exportarRepasses('24.03.2021')
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 13:31:14 --> Undefined variable: styleArray
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 52, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(16): App\Controllers\Repasses->exportarRepasses('24.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-24 13:31:56 --> syntax error, unexpected ''right'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Program Files\Ampps\richard-apps\toolbox\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Repasses')
+#1 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Repasses')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 15:28:15 --> Undefined property: stdClass::$DESC_ACRESCIMOS
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Program File...', 85, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(16): App\Controllers\Repasses->exportarRepasses('24.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

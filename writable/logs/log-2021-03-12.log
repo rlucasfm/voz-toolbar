@@ -1,0 +1,300 @@
+CRITICAL - 2021-03-12 09:11:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Program File...', 128, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(128): count(0)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-12 09:12:36 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Program File...', 128, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(128): count(0)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->buscarEventos()
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-03-12 09:56:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-12 09:56:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-12 09:58:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-12 09:58:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-03-12 09:58:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3 in C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-12 09:58:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND `criado_em` <= '2021-03-13'' at line 3
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\SmsModel.php(281): CodeIgniter\BaseModel->findAll()
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(208): App\Models\SmsModel->buscarDatas(NULL, '2021-03-13', '')
+#8 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#9 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#10 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-12 10:31:34 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-12 10:31:35 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-12 10:31:44 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-12 10:31:54 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-12 10:31:59 --> Undefined variable: req
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 224, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 10:46:47 --> Undefined index: diasate
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(214): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Program File...', 214, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:01:55 --> Undefined variable: dataInicio
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 225, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:03:56 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/busca...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/busca...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:04:01 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/expor...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/expor...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:04:06 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/busca...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/busca...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:13:56 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/busca...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/busca...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:13:58 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/expor...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/expor...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:15:18 --> Undefined variable: diabusca
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 245, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:15:24 --> Undefined index: datainicio
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(207): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Program File...', 207, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:15:32 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:15:51 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:15:59 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:16:17 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:16:54 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:17:00 --> ibase_fetch_object(): conversion error from string &quot;11&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_fetch_obj...', 'C:\\Program File...', 318, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(318): ibase_fetch_object(Resource id #220)
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(263): CodeIgniter\FirebirdModel->queryFetch('SELECT count(DA...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(20): CodeIgniter\FirebirdModel->count()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(245): App\Models\Eventos->verificarEventoCount(Array, '5', '11', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:17:36 --> syntax error, unexpected '='
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/busca...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/busca...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:17:45 --> syntax error, unexpected '}'
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/expor...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/expor...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:17:46 --> syntax error, unexpected '}'
+#0 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('relatorio/busca...')
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('relatorio/busca...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 11:35:00 --> ibase_query(): conversion error from string &quot;1&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 307, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(307): ibase_query('SELECT * FROM E...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(209): CodeIgniter\FirebirdModel->queryFetch('SELECT * FROM E...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(51): CodeIgniter\FirebirdModel->findAll()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(243): App\Models\Eventos->verificarEvento(Array, '5', '1', '2033')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-12 11:45:55 --> ibase_query(): conversion error from string &quot;1&quot; 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ibase_query(): ...', 'C:\\Program File...', 307, Array)
+#1 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(307): ibase_query('SELECT * FROM E...')
+#2 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\FirebirdModel.php(209): CodeIgniter\FirebirdModel->queryFetch('SELECT * FROM E...')
+#3 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Models\Eventos.php(58): CodeIgniter\FirebirdModel->findAll()
+#4 C:\Program Files\Ampps\richard-apps\relat-smsemail\app\Controllers\Relatorio.php(243): App\Models\Eventos->verificarEvento(Array, '5', '1', '')
+#5 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(936): App\Controllers\Relatorio->exportEventos()
+#6 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Relatorio))
+#7 C:\Program Files\Ampps\richard-apps\relat-smsemail\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Program Files\Ampps\www\sms-email\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,65 @@
+CRITICAL - 2021-03-29 06:51:33 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 66, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 06:51:41 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 66, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 06:51:59 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 66, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 06:56:57 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 66, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 06:59:00 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 66, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 07:01:57 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Program File...', 64, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(64): count(Object(stdClass))
+#2 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#5 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-29 07:03:26 --> Trying to get property 'DATA_VENCIMENTO' of non-object
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Program File...', 68, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-29 07:03:54 --> Undefined variable: reg
+#0 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Program File...', 104, Array)
+#1 C:\Program Files\Ampps\richard-apps\toolbox\app\Controllers\Repasses.php(25): App\Controllers\Repasses->exportarRepasses('29.03.2021')
+#2 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(936): App\Controllers\Repasses->index()
+#3 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repasses))
+#4 C:\Program Files\Ampps\richard-apps\toolbox\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Program Files\Ampps\www\toolbox\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
